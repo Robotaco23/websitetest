@@ -76,7 +76,9 @@ getNewQuestion = () => {
 
     choices.forEach((choice) => {
         const number = choice.dataset['number'];
+        currentQuestion['choice' + number] ? choice.parentNode.style.display = 'flex': choice.parentNode.style.display = 'none';
         choice.innerHTML = currentQuestion['choice' + number] ? currentQuestion['choice' + number] : "No answer provided";
+
     });
 
     availableQuesions.splice(questionIndex, 1);
