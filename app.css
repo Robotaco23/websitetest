@@ -104,16 +104,18 @@ h3 {
   box-shadow: none;
   transform: none;
 }
-.navbtn {
+.navBtn {
   font-size: 2.0rem;
   margin: 4px;
+  border-radius: 20px;
 }
 
-.navlogo {
+.navLogo {
   left: 10px;
   position:absolute;
   font-size: 2.4rem;
   color: #4391d4e3;
+  text-decoration: none;
 }
 
 nav {
