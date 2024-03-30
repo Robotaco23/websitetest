@@ -104,6 +104,33 @@ h3 {
   box-shadow: none;
   transform: none;
 }
+.navBtn {
+  font-size: 2.0rem;
+  margin: 4px;
+  border-radius: 20px;
+}
+
+.navLogo {
+  left: 10px;
+  position:absolute;
+  font-size: 2.4rem;
+  color: #4391d4e3;
+  text-decoration: none;
+}
+
+nav {
+  color: #56a5eb;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 8px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  background-color: #c9e2ff;
+  align-items: center;
+}
 
 /* FORMS */
 form {
