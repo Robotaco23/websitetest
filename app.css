@@ -104,6 +104,15 @@ h3 {
   box-shadow: none;
   transform: none;
 }
+.login {
+  font-size: 2.0rem;
+}
+
+nav {
+  color: #56a5eb;
+  background-color: white;
+  height: 6.3rem;
+}
 
 /* FORMS */
 form {
